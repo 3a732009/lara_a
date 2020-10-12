@@ -1,0 +1,17 @@
+{
+    "name": "user/lara_auto",
+    "description": "autoload classes",
+    "authors": [
+        {
+            "name": "張庭瑜",
+            "email": "3a732009@student.ncut.edu.tw"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "./src/Demo"
+        }
+    }
+
+}
